@@ -1,0 +1,15 @@
+{
+  "name": "Ubuntu Desktop",
+  "image": "dorowu/ubuntu-desktop-lxde-vnc",
+  "forwardPorts": [6080],
+  "overrideCommand": false,
+  "containerEnv": {
+    "NOVNC_PORT": "6080",
+    "VNC_PORT": "5900"
+  },
+  "settings": { 
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [],
+  "remoteUser": "root"
+}
